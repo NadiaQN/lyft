@@ -1,3 +1,115 @@
 /*
  * Estilos de tu proyecto
  */
+ /*quitando el margen de body y aplicando fuente para toda la pagina.*/
+ body{
+ 	font-family: Montserrat;
+ 	margin: 0 auto;
+ }
+ /*imagen de fondo aplicada en header*/
+ header{
+	background-image: url("../assets/images/hero.gif");
+	background-size: cover;
+	height: 700px;
+}
+ /*barra de navegación*/
+ nav{
+ 	background-color: transparent;
+ 	position: fixed;
+ 	width: 100%;
+ 	color: white;
+ }
+ nav ul{
+ 	list-style: none;
+ }
+ nav li img{
+ 	width: 50px;
+ 	height: 40px;
+ }
+ nav li{
+ 	display: inline-block;
+ 	margin: 20px;
+ }
+ nav li:first-child{
+ 	margin: 10px;
+ 	margin-right: 800px;
+ }
+ nav li:last-child{
+ 	border: 1px solid white;
+ 	padding: 5px;
+ 	border-radius: 5px;
+ }
+ /*modificando div blanco con info "become a drive"*/
+.white-block{
+	width: 560px;
+	height: 430px;
+	background-color: white;
+	position: relative;
+	top: 200px;
+	left: 789px;
+}
+.margin-white{
+	width: 330px;
+	height: 350px;
+	padding-top: 25px;
+	padding-left: 60px;
+	color: #728099;
+}
+.margin-white h3{
+	color: #352384;
+	font-size: 40px;
+	margin-bottom: 5px;
+}
+.margin-white p{
+	font-size: 10px;
+	margin-top: 20px;
+}
+#subtitulo{
+	font-size: 15px;
+}
+.margin-white form input{
+	border: none;
+	border-bottom: 1px solid black;
+	padding-right: 200px;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+#boton{
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+	background-color: #FF00BF;
+	border-radius: 5px;
+	margin-right: 15px;
+}
+.margin-white a{
+	color: #728099;
+}
+.margin-white p a{
+	color: #FF00BF;
+	text-decoration: none;
+}
+/*seccion con gradiente de color*/
+.section1{
+	background: linear-gradient(#76278F, #2B1E66);
+	color: white;
+	position: absolute;
+	width: 100%;
+}
+.section1 div{
+	width: 500px;
+	margin-top: 100px;
+}
+.section1 div{
+	display: inline-block;
+}
+.text1{
+	position: relative;
+	left: 150px;
+	bottom: 200px;
+}
+.imagen img{
+	width: 500px;
+	position: relative;
+	left: 300px;
+}
